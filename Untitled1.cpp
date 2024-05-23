@@ -1,18 +1,20 @@
-#include <iostream>
-using namespace std;
-int main(){
-	
-	float alas,tinggi,luas;
-	
-	cout << "MENGHITUNG LUAS SEGITIGA\n\n";
-	
-	cout << "Masukkan alas : ";
-	cin >> alas;
-	cout << "Masukkan tinggi : ";
-	cin >> tinggi;
-	cout << endl;
-	
-	cout << "Luas segitiga = "<< 0.5 * alas * tinggi << endl;
-	
-	return 0;
-	}
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+int skor; char nilai; char lulus; int bonus;
+
+printf("masukkan skor : ");scanf("%d",&skor);
+
+if(skor>7)
+{
+nilai='A'; lulus='L'; bonus=50000;
+}
+
+printf("Nilai : %c\n",nilai); printf("Lulus : %c\n",lulus); printf("Bonus : %d\n",bonus);
+
+return 0;
+}
+
+
